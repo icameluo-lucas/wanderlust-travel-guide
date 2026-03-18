@@ -1,0 +1,286 @@
+{
+  "destinations": [
+    {
+      "id": "tuscany",
+      "name": "托斯卡纳",
+      "slug": "tuscany",
+      "location": "Europe · Italy",
+      "continent": "europe",
+      "country": "意大利",
+      "type": ["culture", "countryside", "wine"],
+      "budget": "medium",
+      "bestSeason": ["spring", "autumn"],
+      "rating": 4.8,
+      "reviewCount": 256,
+      "image": "https://images.unsplash.com/photo-1499678329028-101435549a4e?w=1200&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1499678329028-101435549a4e?w=1200&q=80",
+        "https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?w=1200&q=80",
+        "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?w=1200&q=80"
+      ],
+      "excerpt": "金色阳光下的葡萄园，中世纪山城，文艺复兴的艺术瑰宝，品味最地道的意大利生活方式",
+      "description": "托斯卡纳是意大利中部的一个大区，被誉为'文艺复兴的摇篮'。这里有着起伏的丘陵、古老的葡萄园、历史悠久的中世纪城镇，以及世界闻名的美食和美酒。从佛罗伦萨的艺术瑰宝到锡耶纳的哥特式建筑，从圣吉米尼亚诺的塔楼到瓦尔·德·奥尔恰的田园风光，托斯卡纳的每一个角落都散发着迷人的魅力。",
+      "visa": "申根签证（意大利）",
+      "transport": "飞机抵达佛罗伦萨或罗马，转乘火车或租车自驾",
+      "currency": "欧元 (EUR)",
+      "language": "意大利语",
+      "timezone": "CET (UTC+1)",
+      "bestTimeToVisit": "4-6 月或 9-10 月，气候宜人，游客较少",
+      "itineraries": [
+        {
+          "days": 3,
+          "title": "精华三日游",
+          "route": ["佛罗伦萨", "锡耶纳", "圣吉米尼亚诺"]
+        },
+        {
+          "days": 5,
+          "title": "深度五日游",
+          "route": ["佛罗伦萨", "锡耶纳", "圣吉米尼亚诺", "皮恩扎", "蒙特普尔恰诺"]
+        },
+        {
+          "days": 7,
+          "title": "完整七日游",
+          "route": ["佛罗伦萨", "比萨", "卢卡", "锡耶纳", "圣吉米尼亚诺", "皮恩扎", "瓦尔·德·奥尔恰"]
+        }
+      ],
+      "attractions": [
+        {"name": "乌菲兹美术馆", "desc": "世界顶级艺术博物馆，收藏波提切利《春》等杰作", "duration": "3-4 小时"},
+        {"name": "圣母百花大教堂", "desc": "佛罗伦萨地标，布鲁内莱斯基设计的穹顶", "duration": "2 小时"},
+        {"name": "锡耶纳大教堂", "desc": "意大利最美丽的哥特式教堂之一", "duration": "1-2 小时"},
+        {"name": "田野广场", "desc": "锡耶纳的中心广场，每年举办赛马节", "duration": "1 小时"},
+        {"name": "圣吉米尼亚诺", "desc": "中世纪曼哈顿，保存完好的塔楼群", "duration": "半天"}
+      ],
+      "foods": [
+        {"name": "佛罗伦萨 T 骨牛排", "desc": "当地特色炭烤牛排，外焦里嫩"},
+        {"name": "松露意面", "desc": "手工意面配白松露或黑松露"},
+        {"name": "基安蒂红酒", "desc": "托斯卡纳产区的世界级红酒"},
+        {"name": "烤面包配鸡肝酱", "desc": "经典托斯卡纳开胃菜"}
+      ],
+      "hotels": [
+        {"name": "Villa San Michele", "level": "luxury", "price": "€800+/晚", "desc": "15 世纪修道院改建的豪华酒店"},
+        {"name": "Hotel Brunelleschi", "level": "medium", "price": "€200-400/晚", "desc": "佛罗伦萨市中心精品酒店"},
+        {"name": "Agriturismo Poggio alloro", "level": "budget", "price": "€100-200/晚", "desc": "托斯卡纳农庄体验"}
+      ],
+      "tips": [
+        "夏季（7-8 月）游客众多，建议提前预订门票和餐厅",
+        "租车自驾是探索托斯卡纳乡村的最佳方式",
+        "参观酒庄需提前预约品酒活动",
+        "周日许多商店和博物馆关闭，注意营业时间"
+      ]
+    },
+    {
+      "id": "bali",
+      "name": "巴厘岛",
+      "slug": "bali",
+      "location": "Asia · Indonesia",
+      "continent": "asia",
+      "country": "印度尼西亚",
+      "type": ["beach", "culture", "nature", "wellness"],
+      "budget": "budget",
+      "bestSeason": ["dry"],
+      "rating": 4.7,
+      "reviewCount": 412,
+      "image": "https://images.unsplash.com/photo-1537996194471-e657df975ab4?w=1200&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1537996194471-e657df975ab4?w=1200&q=80",
+        "https://images.unsplash.com/photo-1555400038-63f5ba517a47?w=1200&q=80",
+        "https://images.unsplash.com/photo-1518548419970-58e3b4079ab2?w=1200&q=80"
+      ],
+      "excerpt": "热带天堂，古老寺庙，梯田风光，瑜伽与冥想的理想之地",
+      "description": "巴厘岛是印度尼西亚最著名的岛屿，以其热带海滩、火山景观、古老寺庙和独特的印度教文化而闻名。这里有世界级的冲浪海滩、神秘的乌布丛林、壮观的梯田和宁静的瑜伽静修中心。无论是寻求冒险的旅行者、文化探索者还是追求内心平静的修行者，巴厘岛都能满足你的需求。",
+      "visa": "落地签（30 天）或电子落地签",
+      "transport": "飞机抵达登巴萨国际机场，岛上可包车或租摩托车",
+      "currency": "印尼盾 (IDR)",
+      "language": "印尼语、英语（旅游区通用）",
+      "timezone": "WITA (UTC+8，与北京时间相同)",
+      "bestTimeToVisit": "4-10 月旱季，天气晴朗，适合海滩和户外活动",
+      "itineraries": [
+        {
+          "days": 3,
+          "title": "海滩休闲三日游",
+          "route": ["库塔海滩", "水明漾", "金巴兰日落"]
+        },
+        {
+          "days": 5,
+          "title": "文化探索五日游",
+          "route": ["乌布", "圣猴森林公园", "海神庙", "水明漾"]
+        },
+        {
+          "days": 7,
+          "title": "完整七日游",
+          "route": ["乌布", "德格拉朗梯田", "圣泉寺", "海神庙", "库塔", "蓝梦岛一日游"]
+        }
+      ],
+      "attractions": [
+        {"name": "海神庙", "desc": "巴厘岛最重要的海边寺庙，日落时分最美", "duration": "1-2 小时"},
+        {"name": "乌布皇宫", "desc": "传统巴厘建筑，晚上有舞蹈表演", "duration": "1 小时"},
+        {"name": "圣猴森林公园", "desc": "自然保护区，与野生猕猴互动", "duration": "2 小时"},
+        {"name": "德格拉朗梯田", "desc": "电影《美食、祈祷和恋爱》取景地", "duration": "1-2 小时"},
+        {"name": "京打马尼火山", "desc": "观赏巴杜尔火山和火山湖", "duration": "半天"}
+      ],
+      "foods": [
+        {"name": "烤乳猪 (Babi Guling)", "desc": "巴厘岛特色菜，皮脆肉嫩"},
+        {"name": "脏鸭餐 (Bebek Betutu)", "desc": "香料腌制后慢烤的鸭肉"},
+        {"name": "印尼炒饭 (Nasi Goreng)", "desc": "经典印尼主食"},
+        {"name": "沙爹串烧 (Satay)", "desc": "炭烤鸡肉或牛肉串配花生酱"}
+      ],
+      "hotels": [
+        {"name": "The Mulia", "level": "luxury", "price": "$400+/晚", "desc": "努沙杜瓦五星级度假村"},
+        {"name": "Ubud Hanging Gardens", "level": "luxury", "price": "$500+/晚", "desc": "乌布丛林中的无边泳池别墅"},
+        {"name": "The Legian Seminyak", "level": "medium", "price": "$200-350/晚", "desc": "水明漾海滩精品酒店"},
+        {"name": "Puri Garden Hostel", "level": "budget", "price": "$20-50/晚", "desc": "乌布高性价比民宿"}
+      ],
+      "tips": [
+        "尊重当地宗教习俗，进入寺庙需穿纱笼",
+        "雨季（11-3 月）多雨，但价格更便宜",
+        "包车游览比出租车更划算，约$40-50/天",
+        "注意防晒和防蚊，携带驱蚊液",
+        "不要触摸或喂食野生猴子"
+      ]
+    },
+    {
+      "id": "paris",
+      "name": "巴黎",
+      "slug": "paris",
+      "location": "Europe · France",
+      "continent": "europe",
+      "country": "法国",
+      "type": ["city", "culture", "romance", "art"],
+      "budget": "medium",
+      "bestSeason": ["spring", "autumn"],
+      "rating": 4.9,
+      "reviewCount": 589,
+      "image": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=1200&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=1200&q=80",
+        "https://images.unsplash.com/photo-1509248961158-e54f6934749c?w=1200&q=80",
+        "https://images.unsplash.com/photo-1431274172761-fca41d930114?w=1200&q=80"
+      ],
+      "excerpt": "浪漫之都，艺术殿堂，美食天堂，每一处街角都充满故事",
+      "description": "巴黎，法国的首都，被誉为'光之城'和'爱之城'。这座城市以其无与伦比的艺术、建筑、时尚和美食闻名于世。从埃菲尔铁塔到卢浮宫，从香榭丽舍大街到蒙马特高地，巴黎的每一个角落都散发着浪漫与优雅。无论是艺术爱好者、美食家还是浪漫主义者，巴黎都能满足你对美好生活的全部想象。",
+      "visa": "申根签证（法国）",
+      "transport": "飞机抵达戴高乐机场或奥利机场，市内地铁系统发达",
+      "currency": "欧元 (EUR)",
+      "language": "法语（英语在旅游区通用）",
+      "timezone": "CET (UTC+1)",
+      "bestTimeToVisit": "4-6 月或 9-11 月，气候宜人，游客适中",
+      "itineraries": [
+        {
+          "days": 3,
+          "title": "经典三日游",
+          "route": ["埃菲尔铁塔", "卢浮宫", "香榭丽舍大街", "凯旋门"]
+        },
+        {
+          "days": 5,
+          "title": "深度五日游",
+          "route": ["卢浮宫", "奥赛博物馆", "蒙马特", "拉丁区", "塞纳河游船"]
+        },
+        {
+          "days": 7,
+          "title": "完整七日游",
+          "route": ["巴黎市区经典景点", "凡尔赛宫一日游", "迪士尼乐园一日游"]
+        }
+      ],
+      "attractions": [
+        {"name": "埃菲尔铁塔", "desc": "巴黎地标，可登顶俯瞰全城", "duration": "2-3 小时"},
+        {"name": "卢浮宫", "desc": "世界最大艺术博物馆，《蒙娜丽莎》所在地", "duration": "4-6 小时"},
+        {"name": "巴黎圣母院", "desc": "哥特式建筑杰作（外部参观，修复中）", "duration": "1 小时"},
+        {"name": "凯旋门", "desc": "拿破仑为纪念胜利而建，可登顶", "duration": "1-2 小时"},
+        {"name": "圣心大教堂", "desc": "蒙马特高地的白色教堂，俯瞰巴黎", "duration": "1-2 小时"},
+        {"name": "凡尔赛宫", "desc": "法国王室宫殿，镜厅和花园举世闻名", "duration": "半天至一天"}
+      ],
+      "foods": [
+        {"name": "法式焗蜗牛", "desc": "经典法餐前菜，蒜香黄油烤制"},
+        {"name": "鹅肝酱", "desc": "法国高级料理，配面包和甜酒"},
+        {"name": "马卡龙", "desc": "法式甜点，推荐 Ladurée 或 Pierre Hermé"},
+        {"name": "法式长棍面包", "desc": "新鲜出炉的法棍配黄油"},
+        {"name": "洋葱汤", "desc": "传统法餐，配烤面包和奶酪"}
+      ],
+      "hotels": [
+        {"name": "The Ritz Paris", "level": "luxury", "price": "€1000+/晚", "desc": "传奇豪华酒店，可可·香奈儿曾居住"},
+        {"name": "Hôtel Plaza Athénée", "level": "luxury", "price": "€900+/晚", "desc": "埃菲尔铁塔景观五星级酒店"},
+        {"name": "Hôtel du Louvre", "level": "medium", "price": "€250-450/晚", "desc": "卢浮宫旁精品酒店"},
+        {"name": "Generator Paris", "level": "budget", "price": "€50-100/晚", "desc": "时尚青年旅舍"}
+      ],
+      "tips": [
+        "购买巴黎博物馆通票可节省景点门票费用",
+        "地铁是最便捷的市内交通方式",
+        "餐厅用餐需给小费（账单的 5-10%）",
+        "8 月许多巴黎人外出度假，部分店铺关闭",
+        "注意防范热门景点的小偷和骗子"
+      ]
+    },
+    {
+      "id": "kyoto",
+      "name": "京都",
+      "slug": "kyoto",
+      "location": "Asia · Japan",
+      "continent": "asia",
+      "country": "日本",
+      "type": ["culture", "history", "nature", "spiritual"],
+      "budget": "medium",
+      "bestSeason": ["spring", "autumn"],
+      "rating": 4.9,
+      "reviewCount": 478,
+      "image": "https://images.unsplash.com/photo-1528127269322-539801943592?w=1200&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1528127269322-539801943592?w=1200&q=80",
+        "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=1200&q=80",
+        "https://images.unsplash.com/photo-1545569341-9eb8b30979d9?w=1200&q=80"
+      ],
+      "excerpt": "千年古都，樱花与红叶，传统茶道，感受日本文化的精髓",
+      "description": "京都是日本的古都，拥有超过 1000 年的历史，是日本传统文化的中心。这里有 17 处联合国教科文组织世界遗产，包括金阁寺、清水寺、伏见稻荷大社等著名景点。春天的樱花、秋天的红叶、传统的茶道和艺伎文化，让京都成为体验日本精髓的最佳目的地。漫步在祇园的石板路上，你可能会偶遇真正的艺伎。",
+      "visa": "日本旅游签证",
+      "transport": "飞机抵达大阪关西机场，转乘 JR 或私铁到京都；京都市内公交和地铁发达",
+      "currency": "日元 (JPY)",
+      "language": "日语（英语在主要景点可用）",
+      "timezone": "JST (UTC+9，比北京时间快 1 小时)",
+      "bestTimeToVisit": "3-5 月赏樱，10-11 月赏枫，但游客较多",
+      "itineraries": [
+        {
+          "days": 3,
+          "title": "经典三日游",
+          "route": ["清水寺", "伏见稻荷大社", "金阁寺", "祇园"]
+        },
+        {
+          "days": 5,
+          "title": "深度五日游",
+          "route": ["清水寺", "伏见稻荷大社", "金阁寺", "岚山", "银阁寺", "二条城"]
+        },
+        {
+          "days": 7,
+          "title": "完整七日游",
+          "route": ["京都经典景点", "奈良一日游", "宇治一日游", "岚山深度游"]
+        }
+      ],
+      "attractions": [
+        {"name": "伏见稻荷大社", "desc": "千本鸟居，京都最具代表性的神社", "duration": "2-3 小时"},
+        {"name": "清水寺", "desc": "世界文化遗产，清水舞台俯瞰京都", "duration": "2 小时"},
+        {"name": "金阁寺", "desc": "贴满金箔的舍利殿，京都象征", "duration": "1-2 小时"},
+        {"name": "岚山", "desc": "竹林小径、渡月桥，春秋两季绝美", "duration": "半天"},
+        {"name": "祇园", "desc": "艺伎区，传统建筑和茶屋", "duration": "2-3 小时"},
+        {"name": "银阁寺", "desc": "东山文化代表，精致庭园", "duration": "1-2 小时"}
+      ],
+      "foods": [
+        {"name": "怀石料理", "desc": "日本传统高级料理，季节性食材"},
+        {"name": "汤豆腐", "desc": "南禅寺特色，清淡健康"},
+        {"name": "宇治抹茶", "desc": "京都宇治产的顶级抹茶"},
+        {"name": "京野菜", "desc": "京都传统蔬菜料理"},
+        {"name": "鲷鱼茶泡饭", "desc": "祇园名物，清淡美味"}
+      ],
+      "hotels": [
+        {"name": "The Ritz-Carlton Kyoto", "level": "luxury", "price": "¥80000+/晚", "desc": "鸭川畔豪华酒店，部分房间可赏河景"},
+        {"name": "Hoshinoya Kyoto", "level": "luxury", "price": "¥100000+/晚", "desc": "岚山温泉旅馆，需乘船抵达"},
+        {"name": "Hotel Granvia Kyoto", "level": "medium", "price": "¥20000-40000/晚", "desc": "京都站内，交通便利"},
+        {"name": "Piece Hostel Sanjo", "level": "budget", "price": "¥5000-10000/晚", "desc": "设计感青年旅舍"}
+      ],
+      "tips": [
+        "购买京都巴士一日券（700 日元）更划算",
+        "热门寺庙建议早上 8 点前到达避开人流",
+        "樱花季（3 月底 -4 月初）和红叶季（11 月）需提前预订住宿",
+        "部分寺庙和神社需脱鞋进入",
+        "在祇园拍摄艺伎需保持距离，不要阻挡去路"
+      ]
+    }
+  ]
+}
