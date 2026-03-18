@@ -31,6 +31,10 @@ html {
 body {
   font-family: var(--font-body);
   background-color: var(--color-bg);
+  background-image: 
+    radial-gradient(ellipse at top, rgba(201, 169, 98, 0.08) 0%, transparent 60%),
+    radial-gradient(ellipse at bottom, rgba(26, 47, 35, 0.3) 0%, transparent 60%),
+    repeating-linear-gradient(45deg, rgba(255,255,255,0.01) 0px, rgba(255,255,255,0.01) 1px, transparent 1px, transparent 8px);
   color: var(--color-text);
   line-height: 1.7;
   overflow-x: hidden;
