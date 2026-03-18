@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>旅行攻略 | Wanderlust</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/css/guide-list.css">
+</head>
+<body>
+  <div class="cursor"></div>
+
+  <!-- 导航栏 -->
+  <nav>
+    <div class="logo">Wanderlust</div>
+    <div class="nav-links">
+      <a href="../index.html" class="hover-trigger">首页</a>
+      <a href="../destinations/index.html" class="hover-trigger">目的地</a>
+      <a href="index.html" class="hover-trigger">攻略</a>
+      <a href="../index.html#tips" class="hover-trigger">贴士</a>
+    </div>
+  </nav>
+
+  <!-- 页面头部 -->
+  <section class="page-header">
+    <div class="header-content">
+      <p class="section-label">旅行攻略</p>
+      <h1 class="page-title">探索精彩旅程</h1>
+      <p class="page-subtitle">精心策划的旅行攻略，让你的每一次出发都成为难忘的经历</p>
+    </div>
+  </section>
+
+  <!-- 筛选和搜索 -->
+  <section class="filter-section">
+    <div class="filter-container">
+      <!-- 搜索框 -->
+      <div class="search-box">
+        <input type="text" id="search-input" placeholder="搜索目的地、攻略标题..." class="search-input">
+        <button class="search-button hover-trigger" id="search-btn">🔍</button>
+      </div>
+
+      <!-- 筛选器 -->
+      <div class="filters">
+        <div class="filter-group">
+          <label>目的地</label>
+          <select id="destination-filter" class="filter-select">
+            <option value="all">全部</option>
+          </select>
+        </div>
+
+        <div class="filter-group">
+          <label>类型</label>
+          <select id="type-filter" class="filter-select">
+            <option value="all">全部</option>
+            <option value="nature">🏔️ 自然</option>
+            <option value="adventure">🧗 冒险</option>
+            <option value="culture">🏛️ 文化</option>
+            <option value="history">📜 历史</option>
+            <option value="photography">📷 摄影</option>
+            <option value="food">🍽️ 美食</option>
+            <option value="wine">🍷 美酒</option>
+            <option value="wellness">💆 疗愈</option>
+            <option value="spiritual">🧘 灵修</option>
+            <option value="beach">🏖️ 海滩</option>
+            <option value="art">🎨 艺术</option>
+            <option value="city">🏙️ 城市</option>
+          </select>
+        </div>
+
+        <div class="filter-group">
+          <label>天数</label>
+          <select id="duration-filter" class="filter-select">
+            <option value="all">全部</option>
+            <option value="short">3 天以内</option>
+            <option value="medium">4-7 天</option>
+            <option value="long">7 天以上</option>
+          </select>
+        </div>
+
+        <div class="filter-group">
+          <label>预算</label>
+          <select id="budget-filter" class="filter-select">
+            <option value="all">全部</option>
+            <option value="budget">💰 经济实惠</option>
+            <option value="medium">💰💰 中等消费</option>
+            <option value="luxury">💰💰💰 豪华享受</option>
+          </select>
+        </div>
+
+        <div class="filter-group">
+          <label>难度</label>
+          <select id="difficulty-filter" class="filter-select">
+            <option value="all">全部</option>
+            <option value="easy">⭐ 轻松</option>
+            <option value="medium">⭐⭐ 中等</option>
+            <option value="hard">⭐⭐⭐ 挑战</option>
+          </select>
+        </div>
+
+        <button class="reset-button hover-trigger" id="reset-filters">重置</button>
+      </div>
+
+      <!-- 结果统计 -->
+      <div class="results-info">
+        <span id="results-count">找到 0 篇攻略</span>
+        <select id="sort-select" class="sort-select">
+          <option value="rating">按评分排序</option>
+          <option value="views">按浏览量</option>
+          <option value="likes">按点赞数</option>
+          <option value="newest">最新发布</option>
+          <option value="duration">行程天数</option>
+        </select>
+      </div>
+    </div>
+  </section>
+
+  <!-- 攻略网格 -->
+  <section class="guides-section">
+    <div class="guides-grid" id="guides-grid">
+      <!-- 动态生成 -->
+    </div>
+
+    <!-- 无结果提示 -->
+    <div class="no-results" id="no-results" style="display: none;">
+      <h3>未找到匹配的攻略</h3>
+      <p>尝试调整筛选条件或搜索关键词</p>
+      <button class="reset-button hover-trigger" onclick="resetFilters()">重置筛选</button>
+    </div>
+  </section>
+
+  <!-- 页脚 -->
+  <footer>
+    <div class="footer-content">
+      <div class="footer-brand">
+        <div class="footer-logo">Wanderlust</div>
+        <p class="footer-tagline">
+          我们致力于为你提供世界上最精彩的旅行攻略，
+          让每一次出发都成为难忘的经历。
+        </p>
+      </div>
+      <div class="footer-links">
+        <h4>探索</h4>
+        <a href="../index.html#destinations">目的地</a>
+        <a href="index.html">旅行攻略</a>
+        <a href="#">摄影集</a>
+        <a href="#">视频</a>
+      </div>
+      <div class="footer-links">
+        <h4>关于</h4>
+        <a href="#">关于我们</a>
+        <a href="#">联系方式</a>
+        <a href="#">加入我们</a>
+        <a href="#">合作伙伴</a>
+      </div>
+      <div class="footer-links">
+        <h4>支持</h4>
+        <a href="#">帮助中心</a>
+        <a href="#">隐私政策</a>
+        <a href="#">使用条款</a>
+        <a href="#">网站地图</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Wanderlust. All rights reserved.</span>
+      <span>Designed with passion for travelers</span>
+    </div>
+  </footer>
+
+  <!-- 脚本 -->
+  <script src="../assets/js/guides.js?v=20260318"></script>
+  <script src="../assets/js/guide-list.js?v=20260318"></script>
+</body>
+</html>
