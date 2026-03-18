@@ -1,0 +1,344 @@
+{
+  "guides": [
+    {
+      "id": "switzerland-alps",
+      "title": "瑞士阿尔卑斯：雪山湖泊的极致浪漫",
+      "slug": "switzerland-alps",
+      "destination": "瑞士",
+      "destinationId": "switzerland",
+      "coverImage": "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=1200&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=1200&q=80",
+        "https://images.unsplash.com/photo-1531366936337-7c912a4589a7?w=1200&q=80",
+        "https://images.unsplash.com/photo-1520939817895-060bdaf4de1e?w=1200&q=80"
+      ],
+      "excerpt": "从因特拉肯的滑翔伞到采尔马特的马特洪峰，从日内瓦湖的宁静到少女峰的壮丽。这份 7 天深度游攻略将带你体验瑞士最精华的自然风光。",
+      "type": ["nature", "adventure", "photography"],
+      "duration": 7,
+      "budget": "medium",
+      "difficulty": "easy",
+      "season": ["summer", "winter"],
+      "rating": 4.9,
+      "views": 12580,
+      "likes": 856,
+      "author": {
+        "name": "Lucas",
+        "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Lucas",
+        "bio": "旅行摄影师，专注欧洲深度游"
+      },
+      "publishDate": "2026-02-15",
+      "updateDate": "2026-03-10",
+      "readTime": 12,
+      "sections": [
+        {
+          "title": "行程概览",
+          "content": "这条路线将带你深入瑞士阿尔卑斯山区，体验世界级的自然风光。从因特拉肯出发，途经劳特布龙嫩、格林德瓦，最终到达采尔马特，全程 7 天 6 晚。"
+        },
+        {
+          "title": "每日行程",
+          "subsections": [
+            {
+              "day": 1,
+              "title": "抵达因特拉肯",
+              "content": "从苏黎世机场乘坐火车前往因特拉肯（约 2 小时），入住酒店后漫步何维克街，欣赏少女峰全景。"
+            },
+            {
+              "day": 2,
+              "title": "劳特布龙嫩一日游",
+              "content": "乘坐火车前往劳特布龙嫩，参观施陶河瀑布，体验峡谷漫步。晚上返回因特拉肯住宿。"
+            },
+            {
+              "day": 3,
+              "title": "格林德瓦 First 山",
+              "content": "前往格林德瓦，乘坐缆车登顶 First 山，体验悬崖步道和滑翔伞。下午返回因特拉肯。"
+            },
+            {
+              "day": 4,
+              "title": "少女峰登顶",
+              "content": "全天游览少女峰，乘坐齿轮火车到达欧洲之巅。参观冰宫、阿莱奇冰川，体验雪上活动。"
+            },
+            {
+              "day": 5,
+              "title": "前往采尔马特",
+              "content": "乘坐冰川快车前往采尔马特，沿途欣赏阿尔卑斯美景。抵达后漫步小镇，观赏马特洪峰日落。"
+            },
+            {
+              "day": 6,
+              "title": "马特洪峰观景台",
+              "content": "乘坐戈尔内格拉特登山火车，到达 3089 米观景台，拍摄马特洪峰经典倒影。下午体验温泉 SPA。"
+            },
+            {
+              "day": 7,
+              "title": "返程",
+              "content": "睡到自然醒，购买纪念品，乘坐火车返回苏黎世，结束完美的瑞士之旅。"
+            }
+          ]
+        },
+        {
+          "title": "交通指南",
+          "content": "建议购买瑞士旅行通票（Swiss Travel Pass），可无限次乘坐火车、公交和游船。8 天通票约 CHF 418。"
+        },
+        {
+          "title": "住宿推荐",
+          "content": "因特拉肯推荐 Hotel Metropole（CHF 200/晚），采尔马特推荐 Matterhorn Focus（CHF 250/晚）。"
+        },
+        {
+          "title": "美食推荐",
+          "content": "必尝：奶酪火锅、 raclette、 Rösti 土豆饼。推荐餐厅：Restaurant Taverne（因特拉肯）、Chez Vrony（采尔马特）。"
+        },
+        {
+          "title": "预算估算",
+          "content": "7 天总预算约 8000-12000 元/人（不含国际机票），包括住宿、交通、餐饮和门票。"
+        },
+        {
+          "title": "实用贴士",
+          "items": [
+            "瑞士火车准点率极高，建议提前在 SBB APP 查好时刻表",
+            "少女峰天气多变，建议预留 2 天以防天气不佳",
+            "夏季（6-9 月）最适合徒步，冬季（12-3 月）适合滑雪",
+            "瑞士物价较高，建议自备部分干粮",
+            "大部分酒店不提供牙刷拖鞋，需自备"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kyoto-spring",
+      "title": "京都春日：樱花与古寺的诗意之旅",
+      "slug": "kyoto-spring",
+      "destination": "日本·京都",
+      "destinationId": "kyoto",
+      "coverImage": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=1200&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=1200&q=80",
+        "https://images.unsplash.com/photo-1528127269322-539801943592?w=1200&q=80",
+        "https://images.unsplash.com/photo-1545569341-9eb8b30979d9?w=1200&q=80"
+      ],
+      "excerpt": "清晨的清水寺、黄昏的伏见稻荷、夜樱下的哲学之道。5 天 4 晚，带你体验京都最诗意的春天。",
+      "type": ["culture", "history", "photography"],
+      "duration": 5,
+      "budget": "medium",
+      "difficulty": "easy",
+      "season": ["spring"],
+      "rating": 4.8,
+      "views": 9856,
+      "likes": 723,
+      "author": {
+        "name": "Yuki",
+        "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Yuki",
+        "bio": "日本文化研究者，京都居住 5 年"
+      },
+      "publishDate": "2026-03-01",
+      "updateDate": "2026-03-15",
+      "readTime": 10,
+      "sections": [
+        {
+          "title": "行程亮点",
+          "content": "避开人潮的清晨游览、私房赏樱秘境、传统茶道体验、怀石料理品尝。"
+        },
+        {
+          "title": "每日行程",
+          "subsections": [
+            {
+              "day": 1,
+              "title": "抵达京都",
+              "content": "从关西机场乘坐 HARUKA 特急前往京都站，入住祇园附近酒店，晚上漫步花见小路。"
+            },
+            {
+              "day": 2,
+              "title": "东山经典路线",
+              "content": "清晨 6 点游览清水寺（避开人流），步行三年坂二年坂，参观八坂神社，夜访圆山公园赏夜樱。"
+            },
+            {
+              "day": 3,
+              "title": "伏见稻荷 + 宇治",
+              "content": "清晨攀登伏见稻荷大社千本鸟居，下午前往宇治参观平等院，品尝正宗抹茶。"
+            },
+            {
+              "day": 4,
+              "title": "岚山深度游",
+              "content": "乘坐嵯峨野小火车，漫步竹林小径，参观天龙寺，体验传统和服茶道。"
+            },
+            {
+              "day": 5,
+              "title": "金阁寺 + 返程",
+              "content": "上午游览金阁寺和龙安寺枯山水庭院，下午购物后返程。"
+            }
+          ]
+        },
+        {
+          "title": "赏樱秘境",
+          "content": "哲学之道（清晨）、原谷苑（需预约）、常照皇寺（人少花美）、高濑川（夜樱）。"
+        },
+        {
+          "title": "预算估算",
+          "content": "5 天总预算约 6000-9000 元/人（不含国际机票）。"
+        }
+      ]
+    },
+    {
+      "id": "bali-wellness",
+      "title": "巴厘岛身心疗愈：7 天瑜伽冥想之旅",
+      "slug": "bali-wellness",
+      "destination": "印度尼西亚·巴厘岛",
+      "destinationId": "bali",
+      "coverImage": "https://images.unsplash.com/photo-1540555700478-4be289fbecef?w=1200&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1540555700478-4be289fbecef?w=1200&q=80",
+        "https://images.unsplash.com/photo-1555400038-63f5ba517a47?w=1200&q=80",
+        "https://images.unsplash.com/photo-1518548419970-58e3b4079ab2?w=1200&q=80"
+      ],
+      "excerpt": "在乌布的丛林中练习瑜伽，在海神庙前冥想，在梯田旁享用健康素食。给自己 7 天，重新连接身心。",
+      "type": ["wellness", "spiritual", "beach"],
+      "duration": 7,
+      "budget": "budget",
+      "difficulty": "easy",
+      "season": ["dry"],
+      "rating": 4.7,
+      "views": 6234,
+      "likes": 512,
+      "author": {
+        "name": "Sarah",
+        "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Sarah",
+        "bio": "瑜伽导师，身心疗愈倡导者"
+      },
+      "publishDate": "2026-01-20",
+      "updateDate": "2026-02-28",
+      "readTime": 8,
+      "sections": [
+        {
+          "title": "行程特色",
+          "content": "每日瑜伽课程、健康素食、传统巴厘 SPA、冥想静修、自然徒步。"
+        },
+        {
+          "title": "住宿推荐",
+          "content": "乌布推荐 The Yoga Barn（$80/晚含瑜伽课）、水明漾推荐 The Slow（$150/晚）。"
+        },
+        {
+          "title": "预算估算",
+          "content": "7 天总预算约 4000-6000 元/人（不含国际机票）。"
+        }
+      ]
+    },
+    {
+      "id": "tuscany-wine",
+      "title": "托斯卡纳美酒美食：5 天品酒之旅",
+      "slug": "tuscany-wine",
+      "destination": "意大利·托斯卡纳",
+      "destinationId": "tuscany",
+      "coverImage": "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?w=1200&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1516483638261-f4dbaf036963?w=1200&q=80",
+        "https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?w=1200&q=80",
+        "https://images.unsplash.com/photo-1499678329028-101435549a4e?w=1200&q=80"
+      ],
+      "excerpt": "探访基安蒂酒庄，品尝顶级红酒，学习意大利烹饪，住在百年农庄里。美食爱好者的天堂之旅。",
+      "type": ["food", "wine", "countryside"],
+      "duration": 5,
+      "budget": "luxury",
+      "difficulty": "easy",
+      "season": ["spring", "autumn"],
+      "rating": 4.9,
+      "views": 5678,
+      "likes": 445,
+      "author": {
+        "name": "Marco",
+        "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Marco",
+        "bio": "美食作家，葡萄酒认证品酒师"
+      },
+      "publishDate": "2026-02-01",
+      "updateDate": "2026-03-05",
+      "readTime": 9,
+      "sections": [
+        {
+          "title": "行程亮点",
+          "content": "私人酒庄参观、米其林餐厅用餐、烹饪课程、松露狩猎体验。"
+        },
+        {
+          "title": "预算估算",
+          "content": "5 天总预算约 10000-15000 元/人（不含国际机票）。"
+        }
+      ]
+    },
+    {
+      "id": "paris-art",
+      "title": "巴黎艺术深度游：卢浮宫到印象派",
+      "slug": "paris-art",
+      "destination": "法国·巴黎",
+      "destinationId": "paris",
+      "coverImage": "https://images.unsplash.com/photo-1509248961158-e54f6934749c?w=1200&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1509248961158-e54f6934749c?w=1200&q=80",
+        "https://images.unsplash.com/photo-1431274172761-fca41d930114?w=1200&q=80",
+        "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=1200&q=80"
+      ],
+      "excerpt": "从卢浮宫到奥赛，从印象派到现代艺术。6 天时间，系统了解西方艺术史，参观巴黎所有顶级博物馆。",
+      "type": ["art", "culture", "city"],
+      "duration": 6,
+      "budget": "medium",
+      "difficulty": "medium",
+      "season": ["spring", "autumn"],
+      "rating": 4.8,
+      "views": 7890,
+      "likes": 634,
+      "author": {
+        "name": "Claire",
+        "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Claire",
+        "bio": "艺术史博士，博物馆策展人"
+      },
+      "publishDate": "2026-01-15",
+      "updateDate": "2026-02-20",
+      "readTime": 15,
+      "sections": [
+        {
+          "title": "博物馆通票",
+          "content": "建议购买巴黎博物馆通票（4 日€68），可参观卢浮宫、奥赛、凯旋门等 60+ 景点。"
+        },
+        {
+          "title": "预算估算",
+          "content": "6 天总预算约 7000-10000 元/人（不含国际机票）。"
+        }
+      ]
+    },
+    {
+      "id": "iceland-adventure",
+      "title": "冰岛环岛探险：10 天极光与冰川",
+      "slug": "iceland-adventure",
+      "destination": "冰岛",
+      "destinationId": "iceland",
+      "coverImage": "https://images.unsplash.com/photo-1476610182048-b716b8518aae?w=1200&q=80",
+      "images": [
+        "https://images.unsplash.com/photo-1476610182048-b716b8518aae?w=1200&q=80",
+        "https://images.unsplash.com/photo-1531263539447-5b6031ddc2ad?w=1200&q=80",
+        "https://images.unsplash.com/photo-1520697830682-8bc63dd89344?w=1200&q=80"
+      ],
+      "excerpt": "追逐北极光、探索蓝冰洞、徒步冰川、泡蓝湖温泉。10 天环岛自驾，体验世界尽头的极致风光。",
+      "type": ["adventure", "nature", "photography"],
+      "duration": 10,
+      "budget": "luxury",
+      "difficulty": "medium",
+      "season": ["winter"],
+      "rating": 4.9,
+      "views": 11234,
+      "likes": 923,
+      "author": {
+        "name": "Alex",
+        "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Alex",
+        "bio": "冒险旅行家，极光摄影师"
+      },
+      "publishDate": "2026-01-05",
+      "updateDate": "2026-03-01",
+      "readTime": 18,
+      "sections": [
+        {
+          "title": "租车建议",
+          "content": "冬季必须租 4 驱 SUV，推荐 Blue Car Rental（含保险约$150/天）。"
+        },
+        {
+          "title": "预算估算",
+          "content": "10 天总预算约 15000-20000 元/人（不含国际机票）。"
+        }
+      ]
+    }
+  ]
+}
