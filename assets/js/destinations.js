@@ -16,7 +16,11 @@ class DestinationsManager {
     if (this.loaded) return this.destinations;
 
     try {
-      const response = await fetch('data/destinations.json');
+      // 根据当前页面位置计算正确的数据路径
+      const isSubPage = window.location.pathname.includes('/destinations/');
+      const dataPath = isSubPage ? '../data/destinations.json' : 'data/destinations.json';
+      
+      const response = await fetch(dataPath);
       const data = await response.json();
       this.destinations = data.destinations;
       this.loaded = true;
